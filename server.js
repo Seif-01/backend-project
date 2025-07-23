@@ -8,4 +8,12 @@ app.get("/",(req, res) =>  {
     res.render("homepage")
 } )
 
+app.get("/login", (req, res) => {
+    res.render("login")
+})
+
+app.post("/register", (req, res) => {
+    
+})
+
 app.listen(2000)

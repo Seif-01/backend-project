@@ -8,18 +8,30 @@
 </head>
 <body>
     <header>
-        <h2><a href="My Uglyass App"></a></h2>
+        <h2><a href="/">Totally Legit Website</a></h2>
         <nav>
-            <a href="#">Log in</a>
+            <a href="/login">Log in</a>
         </nav>
     </header>
 
     <main>
-        <h3>Welcome to homepage</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam reiciendis officiis voluptatibus, tenetur nemo doloremque adipisci maxime cum, hic atque blanditiis neque dolores enim itaque laborum optio. Quo, quia autem.</p>
+        <form action="/register" methos="POST">
+        <fieldset>
+            <legend>Creat an account </legend>
+            <label for="username"><small>Username</small></label>
+            <input type="text" id="username" name="username" autocomplete="off">
+
+             <legend>Creat an account </legend>
+            <label for="password"><small>Password</small></label>
+            <input type="text" id="password" name="password" autocomplete="off">
+
+            <br />
+            <button>Sign Up</button>
+        </fieldset>
+     </form>
     </main>
 
-    <footer>
+ <footer>
         <small>&copy; Uglyass App</small>
     </footer>
 </body>
